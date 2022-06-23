@@ -4,9 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable-v24/background_drawing_view_layout.xml" value="0.1425" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable-v24/ic_add_image.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable-v24/ic_brush.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable-v24/ic_more.xml" value="0.1" />
         <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable-v24/ic_remove_image.xml" value="0.1" />
-        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/activity_main.xml" value="0.21203703703703702" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable-v24/ic_warning.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/drawable/ic_share.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/activity_main.xml" value="0.23372781065088757" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/app_logo.xml" value="0.6" />
         <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/dialog_brush_size.xml" value="0.2234375" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/ic_share.xml" value="0.2" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/layout/progress_dialog.xml" value="0.264" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/menu/more_menu.xml" value="0.536" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Documents/AndroidProjects/drawaza/app/src/main/res/xml/path.xml" value="0.2234375" />
       </map>
     </option>
   </component>
