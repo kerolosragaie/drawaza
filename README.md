@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="app/src/main/res/drawable/logo.png" width="200" height="200">
+    <img src="app/src/main/res/drawable/full_logo.png" width="200" height="200">
 </p>
 <h1 align="center">
 DRAWAZA
