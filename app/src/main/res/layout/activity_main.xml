@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <FrameLayout
         android:id="@+id/fl_drawing_view_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_margin="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/background_drawing_view_layout"
         app:layout_constraintBottom_toTopOf="@id/ll_paint_colors"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,11 +28,11 @@
             android:src="@android:color/transparent"/>
 
 
-        <com.kerollosragaie.drawaza.DrawingView
+        <com.kerollosragaie.drawaza.views.DrawingView
             android:id="@+id/drawing_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#4CFFFFFF" />
+            android:background="#4CFFFFFF"/>
 
         <include
             android:id="@+id/app_logo"

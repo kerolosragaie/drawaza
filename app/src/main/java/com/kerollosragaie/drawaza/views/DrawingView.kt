@@ -1,4 +1,4 @@
-package com.kerollosragaie.drawaza
+package com.kerollosragaie.drawaza.views
 
 import android.annotation.SuppressLint
 import android.content.Context

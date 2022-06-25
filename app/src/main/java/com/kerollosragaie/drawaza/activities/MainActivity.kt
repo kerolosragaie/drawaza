@@ -1,4 +1,4 @@
-package com.kerollosragaie.drawaza
+package com.kerollosragaie.drawaza.activities
 
 import android.Manifest
 import android.app.AlertDialog
@@ -12,20 +12,19 @@ import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.provider.Settings
-import android.view.Gravity
 import android.view.View
 import android.widget.ImageButton
 import android.widget.LinearLayout
-import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
-import androidx.core.view.isVisible
 import androidx.core.view.iterator
 import androidx.lifecycle.lifecycleScope
+import com.kerollosragaie.drawaza.views.DrawingView
+import com.kerollosragaie.drawaza.R
 import com.kerollosragaie.drawaza.databinding.ActivityMainBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -140,7 +139,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.ibMore.setOnClickListener {
-            //TODO: add about page
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+
         }
     }
 
@@ -378,11 +379,6 @@ class MainActivity : AppCompatActivity() {
         if(binding.appLogo.clLogo.visibility == View.VISIBLE){
             binding.appLogo.clLogo.visibility = View.INVISIBLE
         }else{
-            if(binding.ivBackground.isVisible){
-                binding.appLogo.tvAppName.setTextColor(Color.WHITE)
-            }else{
-                binding.appLogo.tvAppName.setTextColor(Color.BLACK)
-            }
             binding.appLogo.clLogo.visibility = View.VISIBLE
         }
     }

@@ -3,4 +3,11 @@
     <string name="please_wait">Please wait...</string>
     <string name="about">About</string>
     <string name="share">Share</string>
+    <string name="developer_email">kerolosragaie@gmail.com</string>
+    <string name="my_cv">My CV</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="github">Github</string>
+    <string name="developer_name">Kerollos Ragaie</string>
+    <string name="developer_info">Android and Flutter developer</string>
+    <string name="copyrights">© All rights reserved.</string>
 </resources>
