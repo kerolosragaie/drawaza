@@ -6,7 +6,7 @@
 [![GitHub Kerollos Ragaie](https://img.shields.io/github/followers/kerolosragaie?label=follow&style=social)](https://github.com/kerolosragaie)
 
 # ℹ️ Overview
-- Painting game for kids, are great learning apps for children, where kids paint and color colorful drawings come to life in fun games for kids.
+- Painting app for kids are great learning apps for children, where kids paint and color colorful drawings come to life in fun.
 - An android native app developed, to be a great documentation for any beginners
 - Used coroutines and much more...
 
