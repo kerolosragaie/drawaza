@@ -1,9 +1,6 @@
 <p align="center">
-    <img src="app/src/main/res/drawable/full_logo.png" width="200" height="200">
+    <img src="app/src/main/res/drawable/full_logo.png" width="400" height="200">
 </p>
-<h1 align="center">
-DRAWAZA
-</h1>
 
 [![Linkedin: kerollosragaie](https://img.shields.io/badge/-kerollosragaie-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kerollos-ragaie-youssef-b9529aa6/)](https://www.linkedin.com/in/kerollos-ragaie/)
 [![GitHub Kerollos Ragaie](https://img.shields.io/github/followers/kerolosragaie?label=follow&style=social)](https://github.com/kerolosragaie)
