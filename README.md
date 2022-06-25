@@ -6,9 +6,9 @@
 [![GitHub Kerollos Ragaie](https://img.shields.io/github/followers/kerolosragaie?label=follow&style=social)](https://github.com/kerolosragaie)
 
 # ℹ️ Overview
-- A drawing android native app developed, to be a great documentation for any beginners
+- Painting game for kids, are great learning apps for children, where kids paint and color colorful drawings come to life in fun games for kids.
+- An android native app developed, to be a great documentation for any beginners
 - Used coroutines and much more...
 
 # :iphone: Screens
-1-The app can handle any server error:
-<img src="images/1-start_screen.gif" width="360" height="560"/>
+Adding soon...
