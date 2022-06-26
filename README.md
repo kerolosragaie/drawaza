@@ -15,6 +15,6 @@ Will teach kids how to draw different things:
 
 <img src="images/gif_1.gif" width="360" height="560"/>
 
-Is a coloring app for kids, It's full of surprises for toddler drawing.
+Is a coloring app for kids, It's full of surprises for toddler drawing:
 
 <img src="images/gif_2.gif" width="360" height="560"/>
