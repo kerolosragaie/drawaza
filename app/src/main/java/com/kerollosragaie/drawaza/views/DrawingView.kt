@@ -84,7 +84,7 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
         mDrawPaint?.strokeJoin = Paint.Join.ROUND // This is for store join
         mDrawPaint?.strokeCap = Paint.Cap.ROUND // This is for stroke Cap
 
-        mCanvasPaint = Paint(Paint.DITHER_FLAG) // Paint flag that enables dithering when blitting.
+        mCanvasPaint = Paint(Paint.DITHER_FLAG) // Paint flag that enables dithering when blotting.
 
     }
 

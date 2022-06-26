@@ -284,48 +284,46 @@ class MainActivity : AppCompatActivity() {
     }
 
     private suspend fun saveBitmapFile(mBitmap: Bitmap): String {
-        var result = ""
+        var result: String
         withContext(Dispatchers.IO) {
-            if (mBitmap != null) {
-                try {
-                    val bytes = ByteArrayOutputStream()
-                    mBitmap.compress(Bitmap.CompressFormat.PNG, 90, bytes)
+            try {
+                val bytes = ByteArrayOutputStream()
+                mBitmap.compress(Bitmap.CompressFormat.PNG, 90, bytes)
 
-                    //the file to store it:
-                    val file =
-                        File(
-                            externalCacheDir?.absoluteFile.toString() +
-                                    File.separator + "DRAWAZA_" + System.currentTimeMillis() / 1000 + ".png"
-                        )
-                    val fileOutput = FileOutputStream(file)
-                    fileOutput.write(bytes.toByteArray())
-                    fileOutput.close()
+                //the file to store it:
+                val file =
+                    File(
+                        externalCacheDir?.absoluteFile.toString() +
+                                File.separator + "DRAWAZA_" + System.currentTimeMillis() / 1000 + ".png"
+                    )
+                val fileOutput = FileOutputStream(file)
+                fileOutput.write(bytes.toByteArray())
+                fileOutput.close()
 
-                    result = file.absolutePath
+                result = file.absolutePath
 
-                    runOnUiThread {
-                        appLogo()
-                        cancelProgressDialog()
+                runOnUiThread {
+                    appLogo()
+                    cancelProgressDialog()
 
-                        if (result.isNotEmpty()) {
-                            Toast.makeText(
-                                this@MainActivity,
-                                "Image saved successfully.",
-                                Toast.LENGTH_SHORT
-                            ).show()
-                            shareImage(result)
-                        } else {
-                            Toast.makeText(
-                                this@MainActivity,
-                                "Something went wrong while saving the image.",
-                                Toast.LENGTH_SHORT
-                            ).show()
-                        }
+                    if (result.isNotEmpty()) {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Image saved successfully.",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        shareImage(result)
+                    } else {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "Something went wrong while saving the image.",
+                            Toast.LENGTH_SHORT
+                        ).show()
                     }
-                } catch (e: Exception) {
-                    result = ""
-                    e.printStackTrace()
                 }
+            } catch (e: Exception) {
+                result = ""
+                e.printStackTrace()
             }
         }
         return result

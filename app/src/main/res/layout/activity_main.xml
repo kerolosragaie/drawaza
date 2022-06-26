@@ -21,18 +21,18 @@
 
         <ImageView
             android:id="@+id/iv_background"
-            android:visibility="invisible"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:src="@android:color/transparent"/>
+            android:scaleType="fitXY"
+            android:src="@android:color/transparent"
+            android:visibility="invisible" />
 
 
         <com.kerollosragaie.drawaza.views.DrawingView
             android:id="@+id/drawing_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#4CFFFFFF"/>
+            android:background="#4CFFFFFF" />
 
         <include
             android:id="@+id/app_logo"
@@ -141,68 +141,84 @@
 
         <ImageButton
             android:id="@+id/ib_new_page"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
             android:src="@drawable/ic_new_page" />
 
         <ImageButton
             android:id="@+id/ib_add_image"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
             android:src="@drawable/ic_add_bg" />
 
         <ImageButton
             android:id="@+id/ib_save_image"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_save"/>
+            android:src="@drawable/ic_save" />
 
         <ImageButton
             android:id="@+id/ib_remove_image"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_remove_bg"/>
+            android:src="@drawable/ic_remove_bg" />
 
         <ImageButton
             android:id="@+id/ib_brush"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_brush"/>
+            android:src="@drawable/ic_brush" />
 
         <ImageButton
             android:id="@+id/ib_undo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_undo"/>
+            android:src="@drawable/ic_undo" />
 
         <ImageButton
             android:id="@+id/ib_redo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_redo"/>
+            android:src="@drawable/ic_redo" />
 
 
         <ImageButton
             android:id="@+id/ib_more"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="4dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_more_vertical"/>
+            android:src="@drawable/ic_more_vertical" />
 
     </LinearLayout>
 
