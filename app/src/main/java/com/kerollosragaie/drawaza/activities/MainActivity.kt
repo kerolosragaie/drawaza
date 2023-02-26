@@ -384,7 +384,7 @@ class MainActivity : AppCompatActivity() {
     //For sharing option:
     private fun shareImage(result:String){
         MediaScannerConnection.scanFile(this, arrayOf(result),null){
-            path,uri->
+            _,uri->
             val shareIntent = Intent()
             shareIntent.action = Intent.ACTION_SEND
             shareIntent.putExtra(Intent.EXTRA_STREAM,uri)
